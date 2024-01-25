@@ -5,7 +5,7 @@ const Link = ({ type, value, link = false }) => {
     <li className="flex items-center justify-start gap-3 w-2/5 min-w-fit">
       <img
         src={`./icons/icon-${type}.svg`}
-        alt=""
+        alt={`${type} icon`}
         className="dark:brightness-[350%]"
       />
       <a

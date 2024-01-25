@@ -25,6 +25,7 @@ const Header = () => {
         {theme}
         <img
           src={`./icons/icon-${theme === "dark" ? "sun" : "moon"}.svg`}
+          alt={`${theme === "dark" ? "sun" : "moon"} icon`}
           className={`${theme === "light" && "scale-[.8]"}`}
         />
       </button>

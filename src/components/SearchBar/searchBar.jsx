@@ -10,18 +10,18 @@ const searchBar = ({ sendUserName }) => {
         sendUserName(inputValue.toString());
       }}
     >
-      <div className="flex gap-3 items-center justify-between w-full bg-secondary dark:bg-darkSecondary max-[550px]:h-[3.5rem] max-[550px]:pl-3 max-[550px]:rounded-lg max-[550px]:shadow-custom max-[550px]:focus-within:border max-[550px]:border-transparent max-[550px]:focus-within:border-blue ">
+      <div className="flex gap-3 items-center justify-between w-full bg-secondary dark:bg-darkSecondary max-[550px]:h-[3.3rem] max-[550px]:pl-3 max-[550px]:rounded-lg max-[550px]:shadow-custom max-[550px]:focus-within:border max-[550px]:border-transparent max-[550px]:focus-within:border-blue">
         <img
           src="./icons/icon-search.svg"
-          alt=""
+          alt="search icon"
           className="h-fit w-fit scale-90"
         />
         <input
           type="text"
-          name=""
-          id=""
+          name="Username"
+          id="search-box"
           placeholder="Search GitHub Username..."
-          className="h-full w-full bg-transparent border-0 outline-none text-lg caret-blue font-spacemono placeholder:text-md "
+          className="h-full w-full bg-transparent border-0 outline-none text-lg caret-blue font-spacemono placeholder:text-md max-[375px]:placeholder:text-[1rem]"
           onChange={(e) => setInputValue(e.currentTarget.value)}
           value={inputValue}
         />
