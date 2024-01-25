@@ -1,0 +1,22 @@
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @font-face {
+      font-family: Spacemono;
+      src: url('../public/fonts/SpaceMono-Regular.woff2');
+  }
+
+  @font-face {
+      font-family: Spacemono-Bold;
+      src: url('../public/fonts/SpaceMono-Bold.woff2');
+  }
+
+  body {
+      -webkit-user-drag: none;
+  }
+
+  body::-webkit-scrollbar,
+  ul::-webkit-scrollbar {
+      width: 0;
+  }
