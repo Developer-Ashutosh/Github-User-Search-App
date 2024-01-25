@@ -10,7 +10,9 @@ const Link = ({ type, value, link = false }) => {
       />
       <a
         className={`text-lg text-ternary dark:text-darkTernary ${
-          link && value !== "" ? " max-lg:text-blue max-lg:dark:text-blue" : ""
+          link && value !== ""
+            ? " max-lg:text-blue max-lg:dark:text-blue lg:hover:text-blue lg:dark:hover:text-blue"
+            : ""
         } outline-none outline-[1.5px] rounded-sm lg:focus:outline-blue px-1 transition`}
         href={link && value !== "" ? value : undefined}
         target="_blank"
