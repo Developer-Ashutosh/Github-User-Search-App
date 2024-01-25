@@ -26,7 +26,7 @@ const searchBar = ({ sendUserName }) => {
           value={inputValue}
         />
       </div>
-      <button className="px-5 h-4/5 rounded-lg bg-blue min-[1024px]:dark:hover:bg-button-hover transition font-spacemono text-[1rem] tracking-wider text-darkTernary outline-none lg:focus:scale-[1.05] max-md:h-[95%] max-[550px]:h-10">
+      <button className="px-5 h-4/5 rounded-lg bg-blue lg:dark:hover:bg-button-hover transition font-spacemono text-[1rem] tracking-wider text-darkTernary outline-none lg:focus:scale-[1.05] max-md:h-[95%] max-[550px]:h-10">
         Search
       </button>
     </form>

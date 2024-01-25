@@ -48,7 +48,7 @@ const Main = ({ userName }) => {
               <a
                 href={data.html_url}
                 target="_blank"
-                className="w-fit px-1 text-blue text-md outline-none outline-[1.5px] rounded-sm focus:outline-blue"
+                className="w-fit px-1 text-blue text-md outline-none outline-[1.5px] rounded-sm lg:focus:outline-blue"
               >
                 @{data.login}
               </a>
