@@ -29,7 +29,7 @@ const Main = ({ userName }) => {
           <div className="h-[7rem] w-[7rem] overflow-hidden max-md:hidden self-start">
             <img
               src={result.avatar_url}
-              className="h-full w-full object-cover rounded-full text-secondary dark:text-darkSecondary"
+              className="h-full w-full object-cover text-secondary dark:text-darkSecondary"
             />
           </div>
 
@@ -38,7 +38,7 @@ const Main = ({ userName }) => {
               <div className="h-[7rem] w-[7rem] overflow-hidden md:hidden">
                 <img
                   src={result.avatar_url}
-                  className="h-full w-full object-cover rounded-full text-secondary dark:text-darkSecondary"
+                  className="h-full w-full object-cover text-secondary dark:text-darkSecondary"
                 />
               </div>
               <div className="max-[550px]:text-center">
