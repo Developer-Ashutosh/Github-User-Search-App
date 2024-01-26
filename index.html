@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./icons/favicon.svg" />
+  <link rel="icon" type="image/svg+xml" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="Discover, explore, and visualize user data effortlessly with our GitHub app. Gain insights, track activity, and delve into user profiles seamlessly. Elevate your GitHub experience with our intuitive user data display tool.">
@@ -15,5 +15,11 @@
   <div id="root" class="w-[60%] space-y-6 max-lg:w-3/4 max-sm:w-[90%]"></div>
   <script type="module" src="./src/App.jsx"></script>
 </body>
+
+<script>
+  document.querySelector("link").href = `./icons/favicon-${window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light"}.svg`
+</script>
 
 </html>
