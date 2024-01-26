@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Statistic from "./components/Statistic/statistic.jsx";
 import Link from "./components/Link/link.jsx";
 import { DNA } from "react-loader-spinner";
+import Not_Found from "./components/Not_Found/Not_Found.jsx";
 
 const Main = ({ userName }) => {
   const [result, setResult] = useState([]);
@@ -100,12 +101,7 @@ const Main = ({ userName }) => {
           </div>
         </>
       ) : (
-        <div className="flex flex-col gap-7">
-          <img src="./icons/not_found.png" alt="not found image" />
-          <p className="font-spacemono text-primary dark:text-darkPrimary text-xl text-center leading-6">
-            Your search did not match any users.
-          </p>
-        </div>
+        <Not_Found />
       )}
     </main>
   );
