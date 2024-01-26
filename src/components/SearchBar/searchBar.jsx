@@ -4,7 +4,7 @@ const searchBar = ({ sendUserName }) => {
   const [inputValue, setInputValue] = useState("");
   return (
     <form
-      className=" bg-secondary dark:bg-darkSecondary text-ternary dark:text-darkTernary  pl-6 pr-2 py-1 h-[3.85rem] rounded-xl flex items-center justify-between gap-5 shadow-custom border border-transparent focus-within:border-blue max-md:h-14 max-[550px]:flex-col max-[550px]:h-[8rem] max-[550px]:justify-center max-[550px]:bg-transparent max-[550px]:dark:bg-transparent max-[550px]:shadow-transparent max-[550px]:focus-within:border-none max-[550px]:px-0"
+      className=" bg-secondary dark:bg-darkSecondary text-secondary dark:text-darkTernary  pl-6 pr-2 py-1 h-[3.85rem] rounded-xl flex items-center justify-between gap-5 shadow-custom border border-transparent focus-within:border-blue max-md:h-14 max-[550px]:flex-col max-[550px]:h-[8rem] max-[550px]:justify-center max-[550px]:bg-transparent max-[550px]:dark:bg-transparent max-[550px]:shadow-transparent max-[550px]:focus-within:border-none max-[550px]:px-0"
       onSubmit={(e) => {
         e.preventDefault();
         sendUserName(inputValue.toString());
