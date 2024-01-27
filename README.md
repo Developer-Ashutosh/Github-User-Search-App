@@ -9,18 +9,12 @@ Welcome to the GitHub User Search App, your gateway to the vibrant world of GitH
 ### Key Features:
 - **User Search**: Effortlessly search for GitHub users by their usernames.
 - **User Profile**: Dive into detailed user profiles, including bio, followers, and repositories.
-- **Repository Listings**: Explore repositories with descriptions and star counts.
 - **Responsive Design**: Enjoy a seamless experience across devices.
 
 ## Technologies Used
 - **React JS**: Powering the dynamic user interface.
 - **GitHub API**: Fetching user data and repository information.
 - **Tailwind CSS**: Crafting sleek and responsive designs.
-
-## Project Goals
-1. **Discover Repositories**: Explore intriguing GitHub repositories and their functionalities.
-2. **Stay Updated**: Keep abreast of coding trends, technologies, and open-source projects.
-3. **Contribute to Open Source**: Actively participate in open-source initiatives and enhance coding skills.
 
 ## User Expectations
 - **Intuitive Interface**: Enjoy easy navigation and seamless exploration.
